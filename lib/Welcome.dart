@@ -15,7 +15,10 @@ class _MyAppState extends State<MyApp> {
           children: [
             Row(
               children: [
-                Container()
+                const Text("Welocme to my youtube channel"),
+                Container(
+                  child: const Text("Welocme to my youtube channel"),
+                )
               ],
             )
           ],
